@@ -25,20 +25,28 @@ def calcularTeorema(request):
         print(hipotenusa)
 
         if (lado_a == '' and not lado_b == '') and hipotenusa != '':
-            calcularCateto(lado_a if lado_a != '' else lado_b, hipotenusa)
+            result = calcularCateto(lado_a if lado_a != '' else lado_b, hipotenusa)
+            print(result)
+                
+            context = {
+            'o resultado é ' + str(result)
+            }
+
+            return HttpResponse(context)
+
         elif hipotenusa == '' and lado_a != '' and lado_b != '':
             calcularHipotenusa(lado_a, lado_b)
+            print("voce ai")
+
         else:
             return HttpResponse("Valores inválidos!", status = 400)
 
 @csrf_exempt
 def calcularCateto(catetoA, hipotenusa):
     catetoB = (hipotenusa **2 - catetoA**2)**(1/2)
-    print(catetoB)
-    return catetoB
+    return (catetoB)
 
 @csrf_exempt
 def calcularHipotenusa(catetoA, catetoB):
     hipotenusa = (catetoA**2 + catetoB**2)**(1/2)
-    print(hipotenusa)
-    return hipotenusa
+    return (hipotenusa)
