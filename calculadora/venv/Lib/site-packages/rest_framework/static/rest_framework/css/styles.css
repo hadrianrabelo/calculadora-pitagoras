@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+#text-title {
+    font-family: 'Unbounded', cursive;
+}
+
+input {
+    margin-top: 2em;
+}
+
+form {
+    width: 18em;
+}
+
+#form-title {
+    width: 20em;
+}
