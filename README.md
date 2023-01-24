@@ -12,6 +12,7 @@ Para instalar os requisitos, após iniciar a venv (como tutorial abaixo), use o 
 
 
 Para iniciar a calculadora basta seguir as instruções:
+
 1- Iniciar a venv, executando o script 'activate'.  
 2- Iniciar servidor, executando o comando runserver através do 'manage.py'.
 
