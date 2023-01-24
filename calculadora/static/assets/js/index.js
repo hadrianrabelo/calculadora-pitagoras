@@ -25,8 +25,7 @@ $("#form-pythagoras").submit(function(e) {
         method: 'post',
         data: postData,
     }).done(function(data) {
-        console.log(data)
-        alert(data)
+        $('#result').html(data);
     });
 });
 

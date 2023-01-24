@@ -9,9 +9,15 @@ input {
 }
 
 form {
-    width: 18em;
+    width: 17em;
 }
 
 #form-title {
     width: 20em;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
