@@ -7,6 +7,13 @@ Foram utilizados:
     >Html/CSS
     >Django
 
+Versão do Python 3.10.
+
+Para instalar os requisitos, após iniciar a venv (como tutorial abaixo), use o comando:
+    pip install -r requirements.txt
+
+
+
 
 Para iniciar a calculadora basta seguir as instruções:
     >Iniciar a venv, executando o script 'activate'.
