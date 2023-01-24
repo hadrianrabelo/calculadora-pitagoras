@@ -1,11 +1,7 @@
 # calculadora-pitagoras
 
 Desenvolvendo uma calculadora de pitagoras.
-Foram utilizados: 
-    >Python
-    >JavaScript
-    >Html/CSS
-    >Django
+Foram utilizados:                                                                                                                                                       >Python                                                                                                                                                            >JavaScript                                                                                                                                                         >Html/CSS                                                                                                                                                           >Django
 
 Versão do Python 3.10.
 
